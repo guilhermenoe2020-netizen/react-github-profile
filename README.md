@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# GitHub Profile
+**[Acessar site](https://react-github-profile.vercel.app/)**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+Mini-site desenvolvido durante uma aula prática de React, com o objetivo de aprender os fundamentos da biblioteca e consumir a API pública do GitHub.
 
-In the project directory, you can run:
+A aplicação permite pesquisar um usuário pelo nome de usuário e visualizar informações públicas do seu perfil, como foto, nome, localização e links disponíveis.
 
-### `npm start`
+## Demonstração
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Versão Web
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![GitHub Profile - Web](img/web.png)
 
-### `npm test`
+### Versão Mobile
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![GitHub Profile - Mobile](img/mobile.png)
 
-### `npm run build`
+## Tecnologias utilizadas
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **React** 
+- **JavaScript** 
+- **CSS** 
+- **Bootstrap** 
+- **GitHub REST API** 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Conceitos praticados
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Componentes funcionais em React.
+- Gerenciamento de estado com o hook `useState`.
+- Manipulação de eventos com `onSubmit` e `onChange`.
+- Requisições HTTP utilizando `fetch`.
+- Consumo e exibição de dados de uma API.
+- Renderização condicional de componentes.
 
-### `npm run eject`
+## Implantação
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Front end: Vercel
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Como executar o projeto
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Pré-requisitos: Node.js e npm instalados.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Clone o repositório:
 
-## Learn More
+   ```bash
+   git clone https://github.com/guilhermenoe2020-netizen/react-github-profile.git
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. Acesse a pasta do projeto:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   ```bash
+   cd react-github-profile
+   ```
 
-### Code Splitting
+3. Instale as dependências:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+   ```bash
+   npm install
+   ```
 
-### Analyzing the Bundle Size
+4. Inicie a aplicação:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+   ```bash
+   npm start
+   ```
 
-### Making a Progressive Web App
+5. Acesse [http://localhost:3000](http://localhost:3000).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Agradecimentos
 
-### Advanced Configuration
+Agradeço à **DevSuperior** pelo conteúdo didático disponibilizado, que serviu de base para a prática e para o desenvolvimento deste projeto.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [Conteúdo de referência:](https://youtu.be/IOJoJGDowEY)
