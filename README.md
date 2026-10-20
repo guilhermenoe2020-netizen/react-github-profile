@@ -10,11 +10,12 @@ A aplicação permite pesquisar um usuário pelo nome de usuário e visualizar i
 
 ### Versão Web
 
-![GitHub Profile - Web](img/web.png)
+<img src="img/web.png" alt="GitHub Profile - Versão Web" width="700">
 
 ### Versão Mobile
 
-![GitHub Profile - Mobile](img/mobile.png)
+<img src="img/mobile.png" alt="GitHub Profile - Versão Mobile" width="250">
+
 
 ## Tecnologias utilizadas
 
